@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="style">
+        Hi this is vikas
+    </div>
+
+    <div class="get">Elements</div>
+    <div class="get">Elements</div>
+    <div class="get">Elements</div>
+    <div class="get">Elements</div>
+    
+
+    <script>
+
+        var a=document.getElementById("style");
+        a.style.color="white";
+        a.style.backgroundColor="blue";
+        a.style.fontSize="25px";
+
+        var b=document.getElementsByClassName("get");
+        console.log(b);
+
+        b[1].innerText="Sai Vikas"
+
+        var c=document.createElement("p");
+        c.textContent="Hi this is sandy";
+        a.appendChild(c);
+
+        a.remove();
+
+        
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
