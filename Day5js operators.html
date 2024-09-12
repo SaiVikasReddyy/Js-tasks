@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p>1.  Day of the Week Message Scenario: 
+        Develop a webpage that displays a special message based on the current day of the week.</p>
+    <pre>
+        “Start your week strong!” for Monday.
+        “Keep going!” for Tuesday.
+        “Halfway there!” for Wednesday.
+        “Almost the weekend!” for Thursday.
+        “Happy Friday!” for Friday.
+        “Enjoy your weekend!” for Saturday and Sunday.
+    </pre>
+    <pre>
+        var Day=prompt("Enter a Day");
+    
+        if (Day=="Monday"){
+            console.log("Start your week strong!");
+        }
+        else if(Day=="Tuesday"){
+            console.log("Keep going!");
+        }
+        else if(Day=="Wednesday"){
+            console.log("Halfway there!");
+        }
+        else if(Day=="Thursday"){
+            console.log("Almost the weekend!");
+        }
+        else if(Day=="Friday"){
+            console.log("Happy Friday!");
+        }
+        else if(Day=="Saturday and Sunday"){
+            console.log("Enjoy your weekend!");
+        }
+        else{
+            console.log("please enter a valid input");
+        }
+
+        <u>Output:</u>
+        Happy Friday!
+    </pre>
+    
+    
+
+    <p>2.Traffic Light Simulation
+        Scenario: Simulate a traffic light system.</p>
+    
+    <pre>
+        “Stop” if the light is red.
+         “Get Ready” if the light is yellow.
+         “Go” if the light is green.
+    </pre>
+    <pre>
+        var light=prompt("Enter a  traffic light system");
+
+         if (light=="Stop"){
+        console.log("if the light is red.");
+        }
+        else if(light=="Get Ready"){
+        console.log("if the light is yellow.");
+         }
+        else if(light=="Go"){
+        console.log("if the light is green.");
+        }
+        else{
+        console.log("please enter a valid info");
+        }
+
+        <u>Output:</u>
+         if the light is yellow.
+    </pre>
+    <p>
+        Discount Calculator
+        Scenario: Calculate the discount based on the total purchase amount.
+    </p>
+    <pre>
+        var amount = +prompt("enter your amount");
+
+        if(amount< 50){
+            console.  log( no discount")
+        }
+        else if(amount >50 && amount< 100){
+            console.log("5% discount")
+        }
+        else if(amount>101 && amount< 200){
+            console.log("10% discount")
+        }
+        else if(amount>200){
+            console.log("15% discount");
+        }
+        else{
+            console.log("please enter a valid information");
+        }
+
+        <u>Output:</u>
+        10% discount
+    </pre>
+
+    <p>4.Menu
+        Scenario: You are developing a restaurant menu system that provides the price of a dish based on the dish name
+    </p>
+
+    <pre>
+        
+        var  dish=prompt("Enter a dish ");
+         
+        switch (dish){
+            case "Shawrma":
+                console.log("Shawrma-120/-");
+                break;
+        
+            case "Chicken Wings":
+                console.log("Chicken Wings-180/-");
+                break;
+            case "Chicken tandoori":
+                console.log("Chicken tandoori-200/-");
+                break;
+            case "Apollo Fish":
+                console.log("Apollo Fish-230/-");
+                break;
+        }
+
+        <u>Output:</u>
+        Chicken tandoori-200/-
+    </pre>
+
+    <p>
+        5.Assume a variable dish holds the name of the dish as a string (e.g.,  "Biriyani", "shawarma", "Fried rice", "veg pula").Print the price.
+    </p>
+
+    <pre>
+        var dishname=prompt("Enter a dish name");
+
+        switch (dishname ){
+            case "Biryani":
+                console.log(220);
+                break;
+
+            case "Chiken fry":
+                console.log(200);
+                break;
+
+            case "Fried rice":
+                console.log(160);
+                break;
+            
+            case "Veg pulao":
+                console.log(150);
+                break;
+                
+        }
+
+        <u>Output:</u>
+        200
+    </pre>
+
+    <p>
+        6.Simple Calculator
+        Scenario: You are developing a simple calculator that performs basic arithmetic operations.
+    </p>
+
+    <pre>
+        var a=+prompt("enter first number");
+        var b=+prompt("enter second number");
+        var c=prompt("enter operator");
+
+        switch(c){
+            case "+":
+            console.log(a+b);
+            break;
+         
+            case "-":
+            console.log(a-b);
+            break;
+            
+            case "*":
+            console.log(a*b);
+            break;
+
+            case "/":
+            console.log(a/b);
+            break;
+
+            default:
+            console.log("enter a valid operator");
+            
+        }
+
+        <u>Output:</u>
+         5
+    </pre>
+
+    <script>
+        // Day of the Week Message 
+        // Scenario: Develop a webpage that displays a special message based on the current day of the week.
+        // “Start your week strong!” for Monday.
+        // “Keep going!” for Tuesday.
+        // “Halfway there!” for Wednesday.
+        // “Almost the weekend!” for Thursday.
+        // “Happy Friday!” for Friday.
+        // “Enjoy your weekend!” for Saturday and Sunday.
+
+        var Day=prompt("Enter a Day");
+
+        if (Day=="Monday"){
+            console.log("Start your week strong!");
+        }
+        else if(Day=="Tuesday"){
+            console.log("Keep going!");
+        }
+        else if(Day=="Wednesday"){
+            console.log("Halfway there!");
+        }
+        else if(Day=="Thursday"){
+            console.log("Almost the weekend!");
+        }
+        else if(Day=="Friday"){
+            console.log("Happy Friday!");
+        }
+        else if(Day=="Saturday and Sunday"){
+            console.log("Enjoy your weekend!");
+        }
+        else{
+            console.log("please enter a valid input");
+        }
+        
+        // Traffic Light Simulation
+        // Scenario: Simulate a traffic light system.
+        // “Stop” if the light is red.
+        // “Get Ready” if the light is yellow.
+        // “Go” if the light is green.
+
+        var light=prompt("Enter a  traffic light system");
+
+        if (light=="Stop"){
+            console.log("if the light is red.");
+        }
+        else if(light=="Get Ready"){
+            console.log("if the light is yellow.");
+        }
+        else if(light=="Go"){
+            console.log("if the light is green.");
+        }
+        else{
+            console.log("please enter a valid info");
+        }
+
+        // Discount Calculator
+        // Scenario: Calculate the discount based on the total purchase amount.
+
+        // “No discount” if the amount is less than $50.
+        // “5% discount” if the amount is between $50 and $100.
+        // “10% discount” if the amount is between $101 and $200.
+        // “15% discount” if the amount is above $200.
+
+        var amount = +prompt("enter your amount");
+
+        if(amount<50){
+            console.log("no discount");
+        }
+        else if(amount>50 && amount<100){
+            console.log("5% discount");
+        }
+        else if(amount>101 && amount<200){
+            console.log("10% discount");
+        }
+        else if(amount>200){
+            console.log("15% discount");
+        }
+        else{
+            console.log("please enter a valid information");
+        }
+
+        // Restaurant Menu
+        // Scenario: You are developing a restaurant menu system that provides the price of a dish based on the dish name
+
+        var  dish=prompt("Enter a dish ");
+         
+        switch (dish){
+            case "Shawrma":
+                console.log("Shawrma-120/-");
+                break;
+        
+            case "Chicken Wings":
+                console.log("Chicken Wings-180/-");
+                break;
+            case "Chicken tandoori":
+                console.log("Chicken tandoori-200/-");
+                break;
+            case "Apollo Fish":
+                console.log("Apollo Fish-230/-");
+                break;
+        }
+
+        // Assume a variable dish holds the name of the dish as a string (e.g.,  "Biriyani", "shawarma", "Fried rice", "veg pula").Print the price.
+
+        var dishname=prompt("Enter a dish name");
+
+        switch (dishname ){
+            case "Biryani":
+                console.log(220);
+                break;
+
+            case "Chicken fry":
+                console.log(200);
+                break;
+
+            case "Fried rice":
+                console.log(160);
+                break;
+            
+            case "Veg pulao":
+                console.log(150);
+                break;
+        }
+
+        // Simple Calculator
+        // Scenario: You are developing a simple calculator that performs basic arithmetic operations.
+
+        var a=+prompt("enter first number");
+        var b=+prompt("enter second number");
+        var c=prompt("enter operator");
+
+        switch(c){
+            case "+":
+            console.log(a+b);
+            break;
+         
+            case "-":
+            console.log(a-b);
+            break;
+            
+            case "*":
+            console.log(a*b);
+            break;
+
+            case "/":
+            console.log(a/b);
+            break;
+
+            default:
+            console.log("enter a valid operator");
+            
+        }
+
+    </script>
+</body>
+</html>
